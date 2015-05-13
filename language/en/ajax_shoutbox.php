@@ -40,22 +40,21 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge(
 	$lang, array(
 		'AJAX_SHOUTBOX'                  => 'Shoutbox',
-		'AJAX_SHOUTBOX_MESSAGE'          => 'Add message',
-		'AJAX_SHOUTBOX_ONLY_AJAX'        => 'Sorry, posting in the shoutbox is only supported when JavaScript is enabled',
-		'AJAX_SHOUTBOX_NO_PERMISSION'    => 'No permission for the selected action',
-		'AJAX_SHOUTBOX_MESSAGE_EMPTY'    => 'Message empty',
-		'AJAX_SHOUTBOX_ERROR'            => 'Error',
-		'AJAX_SHOUTBOX_MISSING_ID'       => 'Unable to delete post',
-		'AJAX_SHOUTBOX_NO_SUCH_POST'     => 'Unable to find post',
-		'AJAX_SHOUTBOX_PUSH_NOT_AVAIL'   => 'The remote push server is currently not available',
+		'AJAX_SHOUTBOX_MESSAGE'          => 'Dodaj wiadomość',
+		'AJAX_SHOUTBOX_ONLY_AJAX'        => 'Niestety, wiadomości są obsługiwane tylko wtedy, gdy włączona jest obsługa JavaScript',
+		'AJAX_SHOUTBOX_NO_PERMISSION'    => 'Brak uprawnień',
+		'AJAX_SHOUTBOX_MESSAGE_EMPTY'    => 'Pusta wiadomość',
+		'AJAX_SHOUTBOX_ERROR'            => 'Błąd',
+		'AJAX_SHOUTBOX_MISSING_ID'       => 'Nie można usunąć wiadomości',
+		'AJAX_SHOUTBOX_NO_SUCH_POST'     => 'Nie można znaleźć wiadomości',
+		'AJAX_SHOUTBOX_PUSH_NOT_AVAIL'   => 'Zdalny serwer jest obecnie niedostępny',
 
-		'AJAXSHOUTBOX_BOARD_DATE_FORMAT'            => 'My shoutbox date format',
-		'AJAXSHOUTBOX_BOARD_DATE_FORMAT_EXPLAIN'    => 'Specify a date format for just the shoutbox. You should not use a relative date format.',
+		'AJAXSHOUTBOX_BOARD_DATE_FORMAT'            => 'Mój format daty',
+		'AJAXSHOUTBOX_BOARD_DATE_FORMAT_EXPLAIN'    => 'Określ format daty tylko dla shoutboxa',
 
-		'AJAXSHOUTBOX_UNSUPPORTED_STYLE'    => 'It seems you are using a non prosilver based style, or the style doesn’t inherit prosilver correctly.
-			<br />If you are using a style based on prosilver, make sure it inherits prosilver correctly.
-			<br />If you are using a style not based on prosilver, you will need to create a template for the shoutbox,
-				or ask the style author to provide a working template for the shoutbox.
-			<br />I don’t provide support for non prosilver styles (Including subsilver2!). This message is only shown to admins.',
+		'AJAXSHOUTBOX_UNSUPPORTED_STYLE'    => 'Wydaje się, że nie używasz stylu opartego na prosilver.
+							<br>Jeśli używasz styl oparty na prosilver, upewnij się, że dziedziczenie z prosilver ustawione jest poprawnie.
+							<br>Jeśli używany styl nie opiera się na prosilver, trzeba będzie utworzyć odpowiedni szablon lub spytać autora szablonu o taką możliwość.
+							<br>Brak wsparcia dla stylów bez dziedziczenia z prosilver. Ten komunikat jest widoczny tylko dla administratorów.',
 	)
 );
