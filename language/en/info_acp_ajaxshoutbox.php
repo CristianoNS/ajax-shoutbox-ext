@@ -39,12 +39,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge(
 	$lang, array(
-		'LOG_AJAX_SHOUTBOX_ERROR'    => '<strong>An exception occurred when pushing a shoutbox message to the remote server</strong>',
-		'LOG_AJAX_SHOUTBOX_PRUNED'   => '<strong>Pruned shoutbox and deleted %d messages</strong>',
-		'LOG_AJAX_SHOUTBOX_CONFIG_SETTINGS' => '<strong>Ajax shoutbox settings updated</strong>',
+		'LOG_AJAX_SHOUTBOX_ERROR'    => '<strong>Wystąpił błąd podczas połączenia z serwerem shoutboxa</strong>',
+		'LOG_AJAX_SHOUTBOX_PRUNED'   => '<strong>Wyczyść shoutbox i usuń %d wiadomości</strong>',
+		'LOG_AJAX_SHOUTBOX_CONFIG_SETTINGS' => '<strong>Ustawienia Ajax Shoutbox zostały zaktualizowane</strong>',
 
 		'ACP_AJAX_SHOUTBOX'          => 'Ajax Shoutbox',
-		'ACP_AJAX_SHOUTBOX_SETTINGS' => 'Shoutbox settings',
-
+		'ACP_AJAX_SHOUTBOX_SETTINGS' => 'Ustawienia Ajax Shoutboxa',
 	)
 );
